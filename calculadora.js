@@ -145,7 +145,7 @@ if (valor >=3) {
     ctx.fillStyle = "rgba(128, 255, 162, 0.3)";
     corTexto = "#080";
 } 
-else if (valor >=2) {
+else if (valor >=1.6) {
     ctx.strokeStyle = "orange";
     ctx.fillStyle = "rgba(255, 165, 0, 0.3)";
     corTexto = "#e65c00"; 
