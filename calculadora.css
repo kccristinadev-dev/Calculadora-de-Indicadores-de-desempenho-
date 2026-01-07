@@ -27,7 +27,7 @@ header {
   font-family: Georgia, serif;
   font-weight: 700;
   color: #0ffc03;
-  box-shadow: 0 1px 5px #fff;
+  box-shadow: 0 1px 5px rgba(0,0, 0, 0.1);
 }
 
 /* MAIN */
