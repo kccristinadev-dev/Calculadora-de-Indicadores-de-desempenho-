@@ -252,3 +252,35 @@ footer {
   font-size: 0.8rem;
   text-align: center;
 }
+
+  #editarFor {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  width: 90%;
+  max-height: 90%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 1px 4px rgb(240,255,240);
+  border: 1px solid rgb(240,255,240);
+  background-color: #000000;
+  z-index: 1000;
+  overflow-y: auto;
+}
+#sair {
+    margin-bottom: 0.5rem;
+       padding: 5px 10px;
+       background-color: transparent;
+       color: red;
+ 
+}
+.editar {
+    padding: 12px 15px;
+    margin: 0.2rem;
+    border: none;
+    background-color: #F0FFF0;
+    color: #000000;
+    border-radius: 8px;
+}
