@@ -429,5 +429,54 @@ function carregarDados() {
         produtos.push(...JSON.parse(dados));
         mostrarTabela();
     }
+    let indexEdicao= null;
+
+//editar valor do calculo ou ver ele
+function editar(index) {
+    indexEdicao= index;
+    document.getElementById('editarFor').style.display = "block";
+
+    document.getElementById('noproduto').value = produtos[index].produto;
+
+    document.getElementById('esFisico').value =
+    produtos[index].estoqueFisico;
+
+    document.getElementById('esvirtual').value = produtos[index].estoqueVirtual;
+
+    document.getElementById('TotalDevendas').value =
+    produtos[index].vendaTotal;
+
+    document.getElementById('tempo').value =
+    produtos[index].tempoRepo;
+
+    document.getElementById('totalPedido').value =
+    produtos[index].totalPedidos;
+}
+//salvar editagem no valor pra ser calculado
+function salvarEdicao() {
+    if(indexEdicao === null)return;
+    const p = produtos[indexEdicao];
+    p.produto=
+    document.getElementById('noproduto').value;
+    p.estoqueFisico=
+    Number(document.getElementById('esFisico').value);
+    p.estoqueVirtual=
+    Number(document.getElementById('esvirtual').value);
+    p.vendaTotal=
+    Number(document.getElementById('TotalDevendas').value);
+    p.tempoRepo=
+    Number(document.getElementById('tempo').value);
+    p.totalPedidos=
+    Number(document.getElementById('totalPedido').value);
+    salvarLocalStorage();
+    mostrarTabela();
+        document.getElementById('editarFor').style.display = "none";
+
+}
+//fechar o formulario de editar sem mudar o valor
+function voltar() {
+document.getElementById('editarFor').style.display = "none";
+
+        }
 }
 window.addEventListener("load", carregarDados);
