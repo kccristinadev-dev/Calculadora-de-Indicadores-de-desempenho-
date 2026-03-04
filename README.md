@@ -21,5 +21,7 @@ Aplicar conhecimentos de Logística e Desenvolvimento de Sistemas em um projeto 
 # Tecnologias Utilizadas
 
 HTML
+
 CSS
+
 JavaScript
