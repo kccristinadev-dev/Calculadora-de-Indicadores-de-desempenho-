@@ -1,8 +1,8 @@
-#Calculadora de Indicadores de Desempenho
+# Calculadora de Indicadores de Desempenho
 
 
 
-#Funcionalidades
+# Funcionalidades
 
 Cálculo de indicadores logísticos:
 Giro de estoque
@@ -12,13 +12,13 @@ Cobertura de estoque
 Comparação dos resultados por meio de tabela e gráficos, facilitando a análise dos dados.
 
 
-#Objetivo
+# Objetivo
 
 Aplicar conhecimentos de Logística e Desenvolvimento de Sistemas em um projeto prático, simulando um cenário próximo ao mercado de trabalho e apoiando a tomada de decisão.
 
 
 
-#Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 HTML
 CSS
